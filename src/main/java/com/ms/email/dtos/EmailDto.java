@@ -10,7 +10,6 @@ public class EmailDto {
     private String emailFrom;
     private String emailTo;
     private String subject;
-    @Column(columnDefinition = "TEXT")
     private String text;
 
 }
