@@ -1,9 +1,16 @@
-# ms-email
+# MS-Email 🚀📦
 
-Criação de microserviço de envio email com mensageria, utilizando:
+Microservice de envio de emails criado utlizando Java Spring Boot 
 
-Spring Boot;
-BD Postgres;
-Lombok;
-spring validation;
-RabbitMQ;
+## 🛠️ Construído com
+
+* Spring Boot
+* Postgres
+* RabbitMQ
+* Spring Validation
+* Lombok
+
+## ✒️ Autor
+
+* **Dyego Kleodon** 
+
