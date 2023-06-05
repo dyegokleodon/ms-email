@@ -34,8 +34,8 @@ public class EmailController {
         return new ResponseEntity<>(emailModel, HttpStatus.CREATED);
     }
 
-    @GetMapping
+    @GetMapping("/sending-email")
     public ResponseEntity<Page<EmailModel>> getAllEmails(@PageableDefault(page = 0, size = 10, sort="emailId", direction = Sort.Direction.ASC)Pageable pageable){
-        return ResponseEntity.status(HttpStatus.OK).body(EmailService.fingAll(pageable));
+        return ResponseEntity.status(HttpStatus.OK).body(emailService.findAll(pageable));
     }
 }

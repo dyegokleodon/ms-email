@@ -42,7 +42,8 @@ public class EmailService {
         }
     }
 
-    public Page<EmailModel> fingAll(Pageable pageable) {
+    public Page<EmailModel> findAll(Pageable pageable) {
         return emailRepository.findAll(pageable);
     }
+
 }
