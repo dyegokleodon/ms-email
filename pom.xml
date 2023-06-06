@@ -37,6 +37,8 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>pring-boot-starter-logging</artifactId>
                 </exclusion>
+
+
             </exclusions>
         </dependency>
 
